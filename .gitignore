@@ -1,0 +1,67 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pip-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Logs
+*.log
+bot.log
+
+# Data
+snapchat_data.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Cache
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+
+# Editor backups
+*.bak
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.~*

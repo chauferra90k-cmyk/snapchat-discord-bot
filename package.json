@@ -1,0 +1,34 @@
+{
+  "name": "snapchat-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Snapchat group management - Compatible with Termux, Linux, macOS",
+  "main": "bot.py",
+  "scripts": {
+    "start": "python3 bot.py",
+    "dev": "python3 bot.py --dev",
+    "install": "pip3 install -r requirements.txt",
+    "test": "python3 -m pytest tests/",
+    "logs": "tail -f bot.log",
+    "clean": "rm -f bot.log snapchat_data.json"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "snapchat",
+    "bot",
+    "automation",
+    "termux",
+    "linux",
+    "macos"
+  ],
+  "author": "chauferra90k-cmyk",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "discord.py": "^2.3.2"
+  },
+  "devDependencies": {}
+}
